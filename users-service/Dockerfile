@@ -1,5 +1,5 @@
-# Use Node v4 as the base image.
-FROM node:4
+# Use Node updated version as the base image.
+FROM node:12.18.1
 
 # Add everything in the current directory to our image, in the 'app' folder.
 ADD . /app
